@@ -1,0 +1,38 @@
+
+services:
+  # Base de Datos
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    networks:
+      - app-network
+
+  # El Cerebro (Python)
+  backend:
+    build: ./backend
+    container_name: backend-app
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - mongodb
+    networks:
+      - app-network
+
+  # La Cara (Frontend)
+  frontend:
+    image: nginx:alpine
+    container_name: frontend-app
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

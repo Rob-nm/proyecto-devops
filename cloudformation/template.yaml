@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Infraestructura para Web App - Proyecto DevOps'
+
+Resources:
+  # 1. El cubo de almacenamiento (Requisito Punto 8)
+  MiBucketS3:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: !Sub 'proyecto-devops-storage-${AWS::AccountId}'
+
+  # 2. El Firewall (Security Group - Requisito Punto 6)
+  AppSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: 'Permitir acceso HTTP y SSH'
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80    # Puerto para el Frontend
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 8080  # Puerto para el Backend
+          ToPort: 8080
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 22    # Puerto para entrar por terminal
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+
+  # 3. El Servidor (EC2 - Requisito Punto 6)
+  ServidorWeb:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0c101f26f147fa7fd # Nota: ID genérico de Amazon Linux 2023
+      SecurityGroups:
+        - !Ref AppSecurityGroup
+      Tags:
+        - Key: Name
+          Value: Servidor-DevOps-Proyecto
+
+Outputs:
+  BucketName:
+    Value: !Ref MiBucketS3
+  PublicIP:
+    Value: !GetAtt ServidorWeb.PublicIp
