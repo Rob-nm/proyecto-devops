@@ -7,7 +7,14 @@ Resources:
     Type: 'AWS::S3::Bucket'
     Properties:
       BucketName: !Sub 'proyecto-devops-storage-${AWS::AccountId}'
-
+	
+	# 📌 COMENTARIO OBLIGATORIO 
+ # Para permitir el acceso a la aplicación, los Security Groups deben configurarse
+  # definiendo reglas de entrada (Inbound Rules) que abran los puertos necesarios al
+  # tráfico público (0.0.0.0/0). Dependiendo del stack, ejemplos de puertos que 
+  # podrían necesitarse son: 3000 (React/Node), 5173 (Vite), o 8080 (Flask/Spring).
+  # En este proyecto usamos 80 (Frontend) y 8080 (Backend API).
+  
   # 2. El Firewall (Security Group - Requisito Punto 6)
   AppSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
