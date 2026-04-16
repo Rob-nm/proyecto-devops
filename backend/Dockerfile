@@ -6,7 +6,7 @@ WORKDIR /app
 
 # 3. Copiar el archivo de requisitos e instalar las librerías
 COPY requirements.txt .
-RUN pip install flask
+RUN pip install flask flask-cors
 
 # 4. Copiar todo el código del backend a la carpeta /app
 COPY . .

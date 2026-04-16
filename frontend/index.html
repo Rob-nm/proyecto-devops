@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
     <title>Crypto Tracker</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { font-family: sans-serif; background-color: #1a202c; color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .card { background-color: #4a5568; padding: 2rem; border-radius: 0.5rem; text-align: center; min-width: 300px; }
+        button { background-color: #3182ce; color: white; border: none; padding: 0.5rem 1rem; border-radius: 0.25rem; cursor: pointer; margin-top: 1rem; }
+        button:hover { background-color: #2b6cb0; }
+    </style>
 </head>
-<body class="bg-dark text-white p-5">
-    <div class="container text-center">
-        <h1>🚀 Crypto Tracker Real-Time</h1>
-        <div class="card bg-secondary mt-4">
-            <div class="card-body">
-                <h2 id="precio">Cargando...</h2>
-                <button class="btn btn-primary" onclick="actualizar()">Actualizar Precio</button>
-            </div>
-        </div>
+<body>
+    <h1>Crypto Tracker Real-Time</h1>
+    <div class="card">
+        <h2 id="precio">Presiona el botón para actualizar</h2>
+        <button onclick="actualizar()">Actualizar Precio</button>
     </div>
+
     <script>
         function actualizar() {
-            fetch('http://' + window.location.hostname + ':8080/precio')
-                .then(response => response.json())
+            document.getElementById('precio').innerText = "Cargando...";
+            // Usamos la IP actual del navegador para conectar al puerto 8080
+            const api_url = `http://${window.location.hostname}:8080/precio`;
+            
+            fetch(api_url)
+                .then(res => res.json())
                 .then(data => {
                     document.getElementById('precio').innerText = data.moneda + ": $" + data.precio;
+                })
+                .catch(err => {
+                    document.getElementById('precio').innerText = "Error de conexión (Revisa puerto 8080)";
+                    console.error(err);
                 });
         }
     </script>

@@ -1,16 +1,12 @@
-from flask import Flask
-import logging
-import os
+from flask import Flask, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app) 
 
-# Configurar donde se guardan los mensajes (Logs)
-logging.basicConfig(filename='/app/logs/app.log', level=logging.INFO)
-
-@app.route('/')
-def hola():
-    logging.info("El usuario visito la pagina principal")
-    return "Hola! El Tracker de Criptos esta funcionando."
+@app.route('/precio')
+def get_precio():
+    return jsonify({"moneda": "Bitcoin", "precio": 65000})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)

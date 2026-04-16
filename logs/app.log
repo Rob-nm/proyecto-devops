@@ -3,3 +3,111 @@ INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a
  * Running on http://127.0.0.1:8080
  * Running on http://172.18.0.4:8080
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 15:55:34] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 15:56:48] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:07:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:08:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:08:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:08:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:root:El usuario visito la pagina principal
+INFO:werkzeug:204.76.203.206 - - [15/Apr/2026 16:08:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:17:17] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:17:17] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:17:17] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:17:18] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:17:18] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:17:19] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:17:19] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:17:19] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.19.0.4:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:21:19] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:21:24] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:25] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:26] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:26] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:27] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:27] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:36] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:36] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:38] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:38] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:38] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:43] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:21:47] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.0.4:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:23:03] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:23:07] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:25:58] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:25:59] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:25:59] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:26:00] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:root:El usuario visito la pagina principal
+INFO:werkzeug:195.178.110.204 - - [15/Apr/2026 16:29:40] "GET / HTTP/1.0" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.21.0.4:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:33:02] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:33:03] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.155 - - [15/Apr/2026 16:33:03] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:03] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:04] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:04] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:04] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:04] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:04] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:53] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:53] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:54] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:54] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:54] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:54] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:54] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:33:54] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:35:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:35:38] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:35:38] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:35:38] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:37:03] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:37:04] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:37:04] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:37:04] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:37:05] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:37:06] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:40:45] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:43:54] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:44:19] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:44:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:44:25] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:48:04] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:48:31] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.156 - - [15/Apr/2026 16:48:37] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.21.0.4:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:49:24] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:53:34] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:57:03] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:57:05] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:57:08] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:57:08] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:57:09] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:57:09] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:57:09] "[33mGET /precio HTTP/1.1[0m" 404 -
+INFO:werkzeug:201.163.37.157 - - [15/Apr/2026 16:57:09] "[33mGET /precio HTTP/1.1[0m" 404 -
